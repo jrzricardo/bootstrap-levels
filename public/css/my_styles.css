@@ -1,0 +1,49 @@
+.base-button{
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary-button{
+  background-color: blue;
+}
+
+.primary-button:active {
+  background-color: darkblue
+}
+
+.secondary-button{
+
+}
+
+.success-button{
+
+}
+
+.danger-button{
+
+}
+
+.warning-button{
+
+}
+
+.info-button{
+
+}
+
+.base-button:hover {
+  box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
+  -webkit-box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
+  -moz-box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
+
+}
+
+
+/* Write your CSS here to make t
