@@ -1,4 +1,4 @@
-.base-button{
+.base-button {
   border: none;
   color: white;
   padding: 10px;
@@ -10,40 +10,115 @@
   cursor: pointer;
 }
 
-.primary-button{
+.primary-button {
   background-color: blue;
 }
 
 .primary-button:active {
-  background-color: darkblue
+  background-color: darkblue;
 }
 
-.secondary-button{
-
-}
-
-.success-button{
+.secondary-button {
+  background-color: dimgray;
 
 }
 
-.danger-button{
-
+.success-button {
+  background-color: green;
 }
 
-.warning-button{
-
+.danger-button {
+  background-color: red;
 }
 
-.info-button{
+.warning-button {
+  background-color: yellow;
+  color: black;
+}
+
+.info-button {
+  background-color: cyan;
+  color: black;
+}
+
+.base-button:active {
+  box-shadow: 1px -1px 37px 5px rgba(0, 0, 0, 0.55) inset;
+  -webkit-box-shadow: 1px -1px 37px 5px rgba(0, 0, 0, 0.55) inset;
+  -moz-box-shadow: 1px -1px 37px 5px rgba(0, 0, 0, 0.55) inset;
 
 }
 
 .base-button:hover {
-  box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
-  -webkit-box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
-  -moz-box-shadow: 1px -1px 37px 5px rgba(0,0,0,0.55) inset;
-
+  box-shadow: -1px 1px 24px 10px rgba(0, 0, 0, 0.33) inset;
+  -webkit-box-shadow: -1px 1px 24px 10px rgba(0, 0, 0, 0.33) inset;
+  -moz-box-shadow: -1px 1px 24px 10px rgba(0, 0, 0, 0.33) inset;
 }
 
+.unobtrusive-button {
+  border: 1px solid;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-/* Write your CSS here to make t
+.uoprimary-button {
+  border-color: blue;
+  color: blue
+}
+
+.uoprimary-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.uosecondary-button {
+  border-color: dimgray;
+  color: dimgray;
+
+}
+.uosecondary-button:hover {
+  background-color: dimgray;
+  color: white;
+}
+
+.uosuccess-button {
+  color: green;
+}
+
+.uosuccess-button:hover {
+  background-color: green;
+  color: white
+}
+.uosuccess-button:hover {
+  background-color: green;
+  color: white;
+}
+.uodanger-button {
+  color: red;
+}
+.uodanger-button:hover {
+  background-color: red;
+  color:white;
+}
+.uowarning-button {
+  border-color: yellow;
+  color: yellow;
+  
+}
+.uowarning-button:hover {
+  background-color: yellow;
+  color: black;
+}
+.uoinfo-button {
+  border-color: cyan;
+  color: cyan;
+}
+.uoinfo-button:hover {
+  background-color: cyan;
+  color:black
+}
